@@ -9,5 +9,6 @@ class SweepstakesQueueManager:
     # member methods
     def insert_sweepstakes(self, sweepstakes):
         self.queue.enqueue(sweepstakes)
+
     def get_sweepstakes(self):
         self.queue.dequeue()
