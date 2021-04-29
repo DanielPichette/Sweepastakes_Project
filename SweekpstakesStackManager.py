@@ -3,11 +3,12 @@ from data_stack import Stack
 
 class SweepstakesStackManger:
     def __init__(self):
-        self.stack: Stack
+        self.stack: Stack()
 
     # member methods
     def insert_sweepstakes(self, sweepstakes):
-        pass
+        self.stack.push(sweepstakes)
 
     def get_sweepstakes(self):
-        pass
+        self.stack.pop()
+
