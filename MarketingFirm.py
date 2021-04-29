@@ -1,7 +1,13 @@
+from Sweepstake import Sweepstake
+from SweepstakesQueueManager import SweepstakesQueueManager
+from SweekpstakesStackManager import SweepstakesStackManger
+
+
 class MarketingFirm:
     def __init__(self):
-        self.manager: None
+        self.manager:
 
     # member methods
     def create_sweepstakes(self):
-        pass
+        sweepstakes = Sweepstake()
+        return sweepstakes
