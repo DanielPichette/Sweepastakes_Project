@@ -23,8 +23,8 @@ class Sweepstake:
         print(contestant)
 
 
-test = Sweepstake()
-test.register_contestant(Contestant())
-test.register_contestant(Contestant())
-test.register_contestant(Contestant())
-print(test.contestants)
+# test = Sweepstake()
+# test.register_contestant(Contestant())
+# test.register_contestant(Contestant())
+# test.register_contestant(Contestant())
+# print(test.contestants)
